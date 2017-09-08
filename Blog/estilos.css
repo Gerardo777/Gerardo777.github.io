@@ -1,0 +1,11 @@
+body
+{
+    background-color:rgba(140, 180, 220, 0.27);
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+*{
+    border-width: 1px;
+    margin:0;
+    padding: 0;
+    border-style: solid;
+}
