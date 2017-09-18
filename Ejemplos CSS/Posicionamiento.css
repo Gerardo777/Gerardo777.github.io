@@ -14,3 +14,17 @@
     z-index: 10;
     background-color:grey;
 }
+
+body{
+    background-color:lightsalmon;
+}
+#contenedor{
+    background: white;
+    margin :20px;
+    width:200;
+}
+
+#p1, #p2 , #p3{
+    float: left;
+    width :120px;
+}
