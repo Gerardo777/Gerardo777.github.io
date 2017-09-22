@@ -1,0 +1,17 @@
+a:hover{
+    color:#4B2441;
+}
+
+a{
+    border-style: solid;
+    color: #98C1D1;
+    background-color: #25171A;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+a:active{
+    color:#40A6EB;
+}
