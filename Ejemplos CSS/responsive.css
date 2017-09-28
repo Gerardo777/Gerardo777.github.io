@@ -29,3 +29,18 @@ aside{
     margin-right: -4px;
     padding-left: 2%; 
 }
+
+@media screen and(max-width: 40px)
+{
+    .contenedor{
+        width: 100%;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    aside{
+        width: 100%;
+    }
+}

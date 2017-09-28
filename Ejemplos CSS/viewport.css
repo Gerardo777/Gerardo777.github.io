@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor{
+    width: 400px;
+    background-color: red;
+}
+
+@media print{
+    .contenedor{
+        color:blue;
+        width:75%;
+        font-size: 20px;
+    }
+}
+
+@media screen and(min-width:600px) {
+    .contenedor{
+        background-color: #aaa;
+    }
+}
+
+@media screen and(max-width:600px) {
+    .contenedor{
+        background-color:yellow;
+    }
+}
