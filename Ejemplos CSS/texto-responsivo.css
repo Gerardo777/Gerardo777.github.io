@@ -1,24 +1,53 @@
-@media screen and (max-width: 400px){
-    .contenedor{
-        background-color: green;
+body{
+    background-color: #aaa;
+}
+@media screen and (max-width: 25rem){
+    .tablet, .desktop, .smartv{        
+        display: none;
+    }
+
+    html{
+        font-size: 80%;
     }
 
 }
 
-@media screen and (min-width: 400px) and (max-width: 800px){
-    .contenedor{
-        background-color: blue;
+@media screen and (min-width: 25rem) and (max-width: 50rem){
+    .movil, .desktop, .smartv{        
+        display: none;        
+    }
+    html{
+        font-size: 90%;
     }
 }
 
-@media screen and (min-width: 800px) and (max-width:1600px){
-    .contenedor{
-        background-color: red;
+@media screen and (min-width: 50rem) and (max-width:100rem){
+    .tablet, .movil, .smartv{        
+        display: none;        
+    }
+    html{
+        font-size: 150%;
     }
 }
 
-@media screen and (min-width: 400px) and(max-width:1600){
-    .contenedor{
-        background-color: yellow;
+/*@media screen and (min-width:50rem) and (max-width:100rem){
+    .tablet, .desktop, .movil{
+        background-color:yellow;
+        display: none;
     }
+    html{
+        font-size: 200%;
+
+    }
+}*/
+
+.contenedor{
+    max-width: 75rem;
+    background-color: #fff;
+    margin:0 auto;
+}
+
+p{
+    border:0.0625rem solid black;
+    padding: 1.25rem;
 }

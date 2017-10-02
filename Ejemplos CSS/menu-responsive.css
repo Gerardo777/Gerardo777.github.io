@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+.conetendor{
+    width:80%;
+    background: #aaa;
+    margin: auto 0;
+}
+
+header{
+    background:#1B3357;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    padding: 1rem 1.25rem;
+    
+    margin: 0.625rem;
+    border-radius: 0.625rem;
+    display: block;/*genera el espacion necesario alrededor*/
+}
+.logo , nav{
+    display: inline-block;    
+    vertical-align: middle;
+
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+.logo{
+    max-width: 30%;
+    padding: 0.625rem;    
+}
+
+.logo img{
+    width:100%;
+}
+nav ul{
+    list-style: none
+}
+
+nav ul li:hover{
+    background-color: #E5EbEA;
+    color:#747572;
+    
+}
+
+@media screen and (max-width:51.25rem){
+    .logo {
+        max-width: 100%;
+        margin:auto 0;
+    }
+}
